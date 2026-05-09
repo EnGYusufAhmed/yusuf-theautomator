@@ -81,6 +81,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:description", content: "Portfolio of Yusuf Ahmed — building production-grade AI automations, agents, and workflow integrations." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Yusuf Ahmed — AI Automation Engineer" },
+      { name: "twitter:description", content: "Portfolio of Yusuf Ahmed — building production-grade AI automations, agents, and workflow integrations." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/98bf5680-467e-4a65-9517-4f85328ff6ca/id-preview-6a47c5cf--5d3e02c8-4fe0-496f-b5cf-5f1cd0d7f620.lovable.app-1778355117580.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/98bf5680-467e-4a65-9517-4f85328ff6ca/id-preview-6a47c5cf--5d3e02c8-4fe0-496f-b5cf-5f1cd0d7f620.lovable.app-1778355117580.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
